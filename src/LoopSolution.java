@@ -15,9 +15,11 @@ public class LoopSolution {
         System.out.println(Arrays.toString(ramdonSet));
     }
 
-    public static int testQuiz1() {
+    public static void testQuiz1() {
         // Write program that return number 1 - 10
-        return 0;
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i);
+        }
     }
 
     public static int testQuiz2(int[] randomSet) {

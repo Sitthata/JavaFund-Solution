@@ -49,10 +49,14 @@ public class ArraySolution {
     public static void testQuiz1() {
         /*
         A)
-        A.1 Build an empty arrays called pet with the size of 3
+        A.1 Build an empty arrays called pets with the size of 3
         A.2 Assign the value of your array with your 3 favorite pets
         A.3 Print out the values
         */
+        String[] pets = new String[3];
+        pets[0] = "Cat";
+        pets[1] = "Dog";
+        pets[2] = "Parrot";
     }
 
     public static int testQuiz2(int item) {
